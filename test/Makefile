@@ -16,7 +16,7 @@ INCLUDES=-I../include -L../lib
 CXXOPTS=-Wall -O2
 CXXFLAGS=$(CXXOPTS) $(INCLUDES)
 # Libs flags
-LDLIBS=-liw
+LDLIBS=-lwifi -liw
 # Binaries
 TARGETS=list
 

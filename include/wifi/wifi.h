@@ -8,7 +8,7 @@ namespace ipr
     class wifi
     {
     public:
-        wifi();
+        wifi(const std::string &dev);
         ~wifi();
 
         void connect(const std::string &network, const std::string &password);
